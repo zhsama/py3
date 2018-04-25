@@ -1,0 +1,25 @@
+name:
+  first: James
+  last: MyIntyre
+dates:
+  birth: 1828-05-25
+  death: 1906-03-31
+details:
+  bearded: true
+  themes: [chees, Canada]
+books:
+  url: https://www.baidu.com
+poems:
+  - title: 'Motto'
+    text: |
+      Politeness,preseverance and pluck,
+      To their possessor will bring good luck.
+  - title: 'Canadian Charms'
+    text: |
+      here,
+      for,
+      and,
+      of,
+      but,
+      is,
+      and.
