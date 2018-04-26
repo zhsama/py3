@@ -298,9 +298,9 @@ conn = redis.Redis()
 # 1.排行榜
 # 2.二级索引
 # 3.时间序列
-import time
-
-now = time.time()
+# import time
+#
+# now = time.time()
 # print(now)
 # conn.zadd('logins','smeagol',now)#新增访客
 # conn.zadd('logins','sauron',now+(5*60))
@@ -319,10 +319,10 @@ now = time.time()
 # 2.快速
 # 3.处理超大集合数字
 
-days = ['2018-04-25', '2018-04-26', '2018-04-27']
-big_spender = 1089
-tire_kicker = 40459
-late_joiner = 550212
+# days = ['2018-04-25', '2018-04-26', '2018-04-27']
+# big_spender = 1089
+# tire_kicker = 40459
+# late_joiner = 550212
 #
 # conn.setbit(days[0], big_spender, 1)#设置登录
 # conn.setbit(days[0], tire_kicker, 1)
