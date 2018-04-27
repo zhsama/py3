@@ -1,15 +1,15 @@
-#!/usr/bin/env python
+# !/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2018/4/27 18:04
 # @Author  : Aries
-# @Site    : 
+# @Site    :
 # @File    : ch11_client.py
 # @Software: PyCharm
-
-#######################         并发网络        ############################
-
-
-##############      请求--响应对       ################
+#
+# ######################         并发网络        ############################
+#
+#
+# #############      请求--响应对       ################
 # import zmq
 #
 # host = '127.0.0.1'
@@ -24,13 +24,23 @@
 #     reply_bytes = client.recv()
 #     reply_str = reply_bytes.decode('utf-8')
 #     print("Sent %s, received %s" % (request_str, reply_str))
-
-#############       RPC       ################
-
-import xmlrpc.client
-
-proxy = xmlrpc.client.ServerProxy("http://localhost:6789")
-num = 7
-result = proxy.double(num)
-
-print("Double %s is %s" % (num,result))
+#
+# ############       RPC       ################
+#
+# import xmlrpc.client
+#
+# proxy = xmlrpc.client.ServerProxy("http://localhost:6789")
+# num = 7
+# result = proxy.double(num)
+#
+# print("Double %s is %s" % (num,result))
+#
+# ##############      msg pcr python      #############
+# from msgpackrpc import Client, Address
+#
+# client = Client(Address("localhost",6789))
+# num = 8
+# result = client.call('double',num)
+# print("Double %s is %s" % (num,result))
+#
+# #############      fabric       #############

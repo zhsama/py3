@@ -65,19 +65,36 @@ import socket
 # server.register_function(double,"double")
 # server.serve_forever()
 
+###############      msg pcr python      #############
+# from msgpackrpc import Server, Address
+# class Services():
+#     def double(self,num):
+#         return num * 2
+#
+# server = Server(Services())
+# server.listen("localhost",6789)
+# server.start()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# #############      fabric       #############
+#
+# def iso():
+#     from datetime import date
+#     print(date.today().isoformat())
+# --------------------------------------------------
+# from fabric.api import local
+#
+# def iso():
+#     local('date -u')
+# --------------------------------------------------
+# from fabric.api import run
+# from fabric.context_managers import env
+#
+# env.password = "your password goes here"
+#
+# def iso():
+#     run('date -u')
+# ---------------------------------------------------
+# from fabric.api import run
+#
+# def iso():
+#     run('date -u')
