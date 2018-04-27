@@ -35,8 +35,45 @@ import socket
 # print(socket.gethostbyname_ex('www.baidu.com'))
 # print(socket.getaddrinfo('www.baidu.com',443))# 查找ip地址 返回信息全 可用于创建套接字连接
 # print(socket.getaddrinfo('www.baidu.com',443,socket.AF_INET,socket.SOCK_STREAM)) # 只获取tcp或者udp的内容
-socket.getservbyname('http')
-socket.gets
+# socket.getservbyname('http')
+# socket.getservbyport(80)
+
+######      email       ######
+# 1.smtplib使用简单邮件传输协议发送邮件
+# 2.email用来创建和解析邮件
+# 3.poplib可以使用邮递协议（pop3）来读取邮件
+# 4.imaplib可以使用因特网消息访问协议（imap）来读取邮件
+# ---smtpd
+# ---lamon
+
+######      api       #######
+# import requests
+# url = "https://gdata.youtube.com/feeds/api/standerfeeds/top_rated?alt=json"
+# response = requests.get(url)
+# data = response.json()
+# for video in data['feed']['entry'][0:6]:
+#     print(video['title']['$t'])
+
+###############     远程处理        ################
+# from xmlrpc.server import SimpleXMLRPCServer
+#
+#
+# def double(num):
+#     return num * 2
+#
+# server = SimpleXMLRPCServer(("localhost",6789))
+# server.register_function(double,"double")
+# server.serve_forever()
+
+
+
+
+
+
+
+
+
+
 
 
 

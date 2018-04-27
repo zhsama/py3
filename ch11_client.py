@@ -24,3 +24,13 @@
 #     reply_bytes = client.recv()
 #     reply_str = reply_bytes.decode('utf-8')
 #     print("Sent %s, received %s" % (request_str, reply_str))
+
+#############       RPC       ################
+
+import xmlrpc.client
+
+proxy = xmlrpc.client.ServerProxy("http://localhost:6789")
+num = 7
+result = proxy.double(num)
+
+print("Double %s is %s" % (num,result))
