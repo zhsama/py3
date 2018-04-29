@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a51bac4a-9855-4df3-8d5c-1bf8f40b64d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,17 +44,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="test4.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="73" lean-forward="true" selection-start-line="68" selection-end-line="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -341,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524916265599</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="18/04/27">
+      <created>1524990102934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1524990102934</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -362,9 +357,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32997763" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32885906" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.28411633" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" weight="0.28411633" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946353" weight="0.32885906" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20064378" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20600858" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.3299356" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3299356" />
@@ -424,6 +419,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test4.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1606">
+          <caret line="73" lean-forward="true" selection-start-line="68" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test4.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
@@ -436,13 +438,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/introducing-python/sys/mp3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/introducing-python/sys/mp3.py" />
     <entry file="file://$PROJECT_DIR$/ch10.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1760">
@@ -450,13 +446,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/introducing-python/sys/mp3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/introducing-python/sys/mp3.py" />
     <entry file="file://$PROJECT_DIR$/ch9.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -611,13 +601,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/introducing-python/net/zmq_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/introducing-python/net/zmq_server.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pip-9.0.1-py3.6.egg/pip/_vendor/requests/packages/urllib3/contrib/pyopenssl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -625,13 +609,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/introducing-python/net/zmq_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="60" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/introducing-python/net/zmq_client.py" />
     <entry file="file://$PROJECT_DIR$/ch10.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -639,13 +617,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/introducing-python/sys/mp3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/introducing-python/sys/mp3.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/tokenize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -653,34 +625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/introducing-python/net/fab1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/introducing-python/net/fab2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/introducing-python/net/fab4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/introducing-python/net/fab3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/introducing-python/net/fab1.py" />
+    <entry file="file://$USER_HOME$/Desktop/introducing-python/net/fab2.py" />
+    <entry file="file://$USER_HOME$/Desktop/introducing-python/net/fab4.py" />
+    <entry file="file://$USER_HOME$/Desktop/introducing-python/net/fab3.py" />
     <entry file="file://$PROJECT_DIR$/ch11_client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
@@ -725,8 +673,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="73" lean-forward="true" selection-start-line="68" selection-end-line="73" />
+        <state relative-caret-position="96">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
         </state>
       </provider>
     </entry>
