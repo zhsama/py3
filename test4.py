@@ -44,15 +44,15 @@
 #         print('end')
 #         return result
 #
-#     return new_func()
+#     return new_func
 #
 #
 # @test
-# def greeting():
-#     print('greeting')
+# def greeting(str):
+#     print(str)
 #
 #
-# greeting()
+# greeting('asd')
 
 # 定义一个异常OopsException：编写代码捕捉该异常，并输出'Caught an oops'。
 # class OopsException(Exception):
